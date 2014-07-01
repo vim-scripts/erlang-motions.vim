@@ -1,0 +1,27 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4973
+
+Motions
+
+    ]] go to next function declaration
+    [[ previous function declaration
+
+    ]m next function clause
+    [m previous function clause
+
+    And more: ]M, [M, ][, [] go to end of next/previous clause/declaration.
+
+    Each motion can be prefixed with a count.
+
+Text objects
+
+    im, am inside/around function clause
+
+    iM, aM inside/around function declaration
+
+To remind yourself what's an erlang function clause/declaration:
+http://erlang.org/doc/reference_manual/functions.html
+
+All these additions are consistent with vim's default behaviour (but vim's default behaviour doesn't work on erlang).
+
+For a screenshot and better docs, and latest version check out GitHub:
+https://github.com/edkolev/erlang-motions.vim
